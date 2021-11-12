@@ -1,0 +1,8 @@
+$nomention
+$title[🖼️ **| Avatar**]
+$description[**Este É O Avatar De:** <@$mentioned[1]>
+**Pedido Por:** <@$authorID>]
+$footer[Hoje $hour:$minute]
+$color[FF0000]
+$deletecommand
+$image[$userAvatar[$mentioned[1]]]
