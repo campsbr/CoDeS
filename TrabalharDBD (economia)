@@ -1,0 +1,8 @@
+$nomention
+$title[💸 **| Trabalho!**]
+$description[<@$authorID> **Trabalhou E Conseguiu:**
+
+💲 **|** `$random[20;500]` **Reais!**]
+$footer[Hoje $hour:$minute]
+$color[222222]
+$setUserVar[dinheiro;$sum[$getUserVar[dinheiro];$random[20;500]]]
