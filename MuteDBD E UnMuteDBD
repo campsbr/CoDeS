@@ -1,0 +1,34 @@
+Mute:
+
+$nomention
+$onlyPerms[manageroles;❌ **| Você Não Tem Permissão Para Utilizar Este Comando!**]
+$onlyBotPerms[manageroles;❌ **| Eu Não Tenho Permissão Para Executar Este Comando!**]
+$onlyIf[$mentioned[1]!=;❌ **| Você Precisa Mencionar Alguem Para Executar Este Comando!**]
+$title[🔇 **| Mutado!**]
+$description[✔️ **| Usuario Mutado Com Sucesso!**
+
+👤 **| Usuario Mutado:** <@$mentioned[1]>
+
+👮 **| Mutado Por:** <@$authorID>
+
+🏷️ **| Motivo:** `$message[2]`]
+$footer[Hoje $hour:$minute]
+$color[333333]
+$deletecommand
+$mute[Mutado]
+
+UnMute:
+
+$nomention
+$onlyPerms[manageroles;❌ **| Você Não Tem Permissão Para Utilizar Este Comando!**]
+$onlyBotPerms[manageroles;❌ **| Eu Não Tenho Permissão Para Utilizar Este Comando!**]
+$onlyIf[$mentioned[1]!=;❌ **| Mencione Alguem Para Utilizar Este Comando!**]
+$title[🔈 **| Desmutado!**]
+$description[🔈 **| Usuario Desmutado Com Sucesso!**
+
+👤 **| Usuario Desmutado:** <@$mentioned[1]>
+
+👮 **| Desmutado Por:** <@$authorID>]
+$footer[Hoje $hour:$minute]
+$color[FF0000]
+$unmute[Mutado]
