@@ -1,0 +1,8 @@
+$nomention
+$title[💰 **| Carteira**]
+$description[**Carteira De:** <@$authorID>
+
+💸 **| Dinheiro:** `$getUserVar[dinheiro]`]
+$deletecommand
+$footer[Hoje $hour:$minute]
+$color[222222]
